@@ -23,5 +23,5 @@ If you want to test it repeatedly, there's a commented out function call at the 
 © 2013 <a href="https://github.com/komejo">Komejo</a>. Created by <a href="http://twitter.com/KomejoDev">Joe Komenda</a>.
 
 Credit to [Cats Who Code](http://www.catswhocode.com/blog/10-jquery-snippets-for-efficient-developers) for the 'Validate a date of birth using jQuery' section.
-jqverify.js is released under the <a href="http://opensource.org/licenses/MIT">MIT license</a>.
 
+jqverify.js is released under the <a href="http://opensource.org/licenses/MIT">MIT license</a>.
