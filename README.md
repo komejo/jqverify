@@ -1,11 +1,11 @@
 jqverify
 ========
 
-An age verification (or age gate) using HTML, CSS, and jQuery/JavaScript. [Live Demo](http://komejo.com/jqverify/example.html)
+An age verification tool (or age gate) using HTML, CSS, and jQuery/JavaScript. [Live Demo](http://komejo.com/jqverify/example.html)
 
-This age verification system is set up for Legal Drinking Age, has a JS cookie option, and works in a modal window. It could easily be adapted for other uses.
+This age verification system is set up for Legal Drinking Age, has a 'Remember Me' JS cookie option, and works in a modal window. It could easily be adapted for other uses.
 
-I wrote / pieced this together because I could not find a solution that was frontend-only, had all of the HTML, countries / drinking ages, set cookies, and had a 'remember me' checkbox.
+I wrote / pieced this together because I could not find a solution that was frontend-only, and had all of the HTML, countries/drinking ages, set cookies, and had a 'remember me' checkbox.
 
 ## Basic Use
 
