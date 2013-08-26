@@ -1,8 +1,21 @@
+/* setviewport v1.00, by Joe Komenda (Komejo). Copyright 2013, MIT Licence.
+
+  This script looks for a cookie, using the function readCookie().
+  If it does not find it (or it is expired), it calls a modal
+  window (id = agemodal). If you correctly submit the form,
+  it sets the cookie 'jqverify' with the appropriate expiry.
+
+*/
 jQuery(document).ready(function() {
 
     var agemodal = "#agemodal",
         submit   = "#formsubmit",
         content  = "#content";
+
+    // A handy little function to erase cookies,
+    // useful when testing/debugging.
+    //
+    // eraseCookie('jqverify');
 
     if (!readCookie('jqverify')) {
         jQuery(agemodal).fadeIn();
@@ -70,7 +83,6 @@ jQuery(document).ready(function() {
         return null;
     };
 
-    // A handy little function to erase cookies - useful when testing/debugging.
     function eraseCookie(name) {
         createCookie(name,"",-1);
     };

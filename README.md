@@ -5,19 +5,22 @@ An age verification (or age gate) using HTML, CSS, and jQuery/JavaScript.
 
 This age verification system is set up for Legal Drinking Age, has a JS cookie option, and works in a modal window. It could easily be adapted for other uses.
 
-Most age verification use a mix of server and client-side code, but since age they rely 100% on honest input, there's no reason to do this.
-
-When I went looking for a complete solution that was frontend-only, I couldn't find anything that had all of the HTML with the countries / drinking ages included, set cookies, or had a 'remember me' ckeckbox, so I cobbled this together.
+I wrote / pieced this together because I could not find a solution that was frontend-only, had all of the HTML, countries / drinking ages, set cookies, and had a 'remember me' ckeckbox.
 
 ## Basic Use
 
+Add the content in modal.html and modal.css to all entry points of your site. Upload jqverify.js, and include it in your header or footer, depending on your preference (I call it in the footer): `<script src="./jqverify.js"></script>`
+
+Then wrap your sensitive content in a div like so: `<div id="content" class="content"></div>`
+
+If you already have a content wrapper, just update `content  = "#content";` as needed in jqverify.js.
+
+If you want to test it repeatedly, there's a commented out function call at the top of jqverify.js `\\ eraseCookie('jqverify');`
 
 
 ## License and Credits
 
 © 2013 <a href="https://github.com/komejo">Komejo</a>. Created by <a href="http://twitter.com/KomejoDev">Joe Komenda</a>.
-
-Minified using http://refresh-sf.com/yui/
 
 Credit to [Cats Who Code](http://www.catswhocode.com/blog/10-jquery-snippets-for-efficient-developers) for the 'Validate a date of birth using jQuery' section.
 jqverify.js is released under the <a href="http://opensource.org/licenses/MIT">MIT license</a>.
