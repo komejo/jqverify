@@ -1,3 +1,10 @@
+/* setviewport v1.00, by Joe Komenda (Komejo). Copyright 2013, MIT Licence.
+
+  Note: The CSS default to hide the content and the modal are
+  important to prevent circumvention via simply turning off
+  JavaScript.
+
+*/
 .content {
     display: none;
 }
